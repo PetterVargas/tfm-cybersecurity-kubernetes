@@ -1,0 +1,261 @@
+{
+ "artifacts": [
+  {
+   "id": "2274b33848f88678",
+   "name": "Flask",
+   "version": "1.0.0",
+   "type": "python",
+   "foundBy": "python-index-cataloger",
+   "locations": [
+    {
+     "path": "requirements.txt"
+    }
+   ],
+   "licenses": [],
+   "language": "python",
+   "cpes": [
+    "cpe:2.3:a:python-Flask:python-Flask:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:python-Flask:python_Flask:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:python_Flask:python-Flask:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:python_Flask:python_Flask:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:python:python-Flask:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:python:python_Flask:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:Flask:python-Flask:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:Flask:python_Flask:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:python-Flask:Flask:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:python_Flask:Flask:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:python:Flask:1.0.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:Flask:Flask:1.0.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:pypi/Flask@1.0.0"
+  },
+  {
+   "id": "e58e9b8ee01d7c9e",
+   "name": "Jinja2",
+   "version": "3.1.2",
+   "type": "python",
+   "foundBy": "python-index-cataloger",
+   "locations": [
+    {
+     "path": "requirements.txt"
+    }
+   ],
+   "licenses": [],
+   "language": "python",
+   "cpes": [
+    "cpe:2.3:a:python-Jinja2:python-Jinja2:3.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:python-Jinja2:python_Jinja2:3.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:python_Jinja2:python-Jinja2:3.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:python_Jinja2:python_Jinja2:3.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:Jinja2:python-Jinja2:3.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:Jinja2:python_Jinja2:3.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:python-Jinja2:Jinja2:3.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:python:python-Jinja2:3.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:python:python_Jinja2:3.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:python_Jinja2:Jinja2:3.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:Jinja2:Jinja2:3.1.2:*:*:*:*:*:*:*",
+    "cpe:2.3:a:python:Jinja2:3.1.2:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:pypi/Jinja2@3.1.2"
+  },
+  {
+   "id": "6473e6d994bc78e6",
+   "name": "black",
+   "version": "22.3.0",
+   "type": "python",
+   "foundBy": "python-index-cataloger",
+   "locations": [
+    {
+     "path": "requirements.txt"
+    }
+   ],
+   "licenses": [],
+   "language": "python",
+   "cpes": [
+    "cpe:2.3:a:python-black:python-black:22.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:python-black:python_black:22.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:python_black:python-black:22.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:python_black:python_black:22.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:python:python-black:22.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:python:python_black:22.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:black:python-black:22.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:black:python_black:22.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:python-black:black:22.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:python_black:black:22.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:python:black:22.3.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:black:black:22.3.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:pypi/black@22.3.0"
+  },
+  {
+   "id": "103e4e5fcaaf2594",
+   "name": "flake8",
+   "version": "4.0.1",
+   "type": "python",
+   "foundBy": "python-index-cataloger",
+   "locations": [
+    {
+     "path": "requirements.txt"
+    }
+   ],
+   "licenses": [],
+   "language": "python",
+   "cpes": [
+    "cpe:2.3:a:python-flake8:python-flake8:4.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:python-flake8:python_flake8:4.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:python_flake8:python-flake8:4.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:python_flake8:python_flake8:4.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:flake8:python-flake8:4.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:flake8:python_flake8:4.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:python-flake8:flake8:4.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:python:python-flake8:4.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:python:python_flake8:4.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:python_flake8:flake8:4.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:flake8:flake8:4.0.1:*:*:*:*:*:*:*",
+    "cpe:2.3:a:python:flake8:4.0.1:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:pypi/flake8@4.0.1"
+  },
+  {
+   "id": "349a39e9e9a297e6",
+   "name": "pytest",
+   "version": "7.2.0",
+   "type": "python",
+   "foundBy": "python-index-cataloger",
+   "locations": [
+    {
+     "path": "requirements.txt"
+    }
+   ],
+   "licenses": [],
+   "language": "python",
+   "cpes": [
+    "cpe:2.3:a:python-pytest:python-pytest:7.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:python-pytest:python_pytest:7.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:python_pytest:python-pytest:7.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:python_pytest:python_pytest:7.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:pytest:python-pytest:7.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:pytest:python_pytest:7.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:python-pytest:pytest:7.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:python:python-pytest:7.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:python:python_pytest:7.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:python_pytest:pytest:7.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:pytest:pytest:7.2.0:*:*:*:*:*:*:*",
+    "cpe:2.3:a:python:pytest:7.2.0:*:*:*:*:*:*:*"
+   ],
+   "purl": "pkg:pypi/pytest@7.2.0"
+  }
+ ],
+ "artifactRelationships": [
+  {
+   "parent": "ae08700221ce9245453a1d205d0659c5227abf35488ea252b304dfc06752093b",
+   "child": "103e4e5fcaaf2594",
+   "type": "contains"
+  },
+  {
+   "parent": "ae08700221ce9245453a1d205d0659c5227abf35488ea252b304dfc06752093b",
+   "child": "2274b33848f88678",
+   "type": "contains"
+  },
+  {
+   "parent": "ae08700221ce9245453a1d205d0659c5227abf35488ea252b304dfc06752093b",
+   "child": "349a39e9e9a297e6",
+   "type": "contains"
+  },
+  {
+   "parent": "ae08700221ce9245453a1d205d0659c5227abf35488ea252b304dfc06752093b",
+   "child": "6473e6d994bc78e6",
+   "type": "contains"
+  },
+  {
+   "parent": "ae08700221ce9245453a1d205d0659c5227abf35488ea252b304dfc06752093b",
+   "child": "e58e9b8ee01d7c9e",
+   "type": "contains"
+  }
+ ],
+ "source": {
+  "id": "ae08700221ce9245453a1d205d0659c5227abf35488ea252b304dfc06752093b",
+  "type": "directory",
+  "target": "aplicacion-python-flask-tdd/"
+ },
+ "distro": {},
+ "descriptor": {
+  "name": "syft",
+  "version": "0.68.1",
+  "configuration": {
+   "configPath": "",
+   "verbosity": 0,
+   "quiet": false,
+   "output": [
+    "json"
+   ],
+   "output-template-path": "",
+   "file": "",
+   "check-for-app-update": true,
+   "dev": {
+    "profile-cpu": false,
+    "profile-mem": false
+   },
+   "log": {
+    "structured": false,
+    "level": "warn",
+    "file-location": ""
+   },
+   "catalogers": null,
+   "package": {
+    "cataloger": {
+     "enabled": true,
+     "scope": "Squashed"
+    },
+    "search-unindexed-archives": false,
+    "search-indexed-archives": true
+   },
+   "file-metadata": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "digests": [
+     "sha256"
+    ]
+   },
+   "file-classification": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    }
+   },
+   "file-contents": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "Squashed"
+    },
+    "skip-files-above-size": 1048576,
+    "globs": []
+   },
+   "secrets": {
+    "cataloger": {
+     "enabled": false,
+     "scope": "AllLayers"
+    },
+    "additional-patterns": {},
+    "exclude-pattern-names": [],
+    "reveal-values": false,
+    "skip-files-above-size": 1048576
+   },
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": []
+   },
+   "exclude": [],
+   "platform": "",
+   "name": "",
+   "parallelism": 1
+  }
+ },
+ "schema": {
+  "version": "6.2.0",
+  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-6.2.0.json"
+ }
+}

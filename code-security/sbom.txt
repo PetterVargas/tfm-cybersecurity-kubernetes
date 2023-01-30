@@ -1,0 +1,6 @@
+NAME    VERSION  TYPE   
+Flask   1.0.0    python  
+Jinja2  3.1.2    python  
+black   22.3.0   python  
+flake8  4.0.1    python  
+pytest  7.2.0    python  

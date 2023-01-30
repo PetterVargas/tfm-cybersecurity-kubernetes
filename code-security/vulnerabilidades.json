@@ -1,0 +1,301 @@
+{
+ "matches": [
+  {
+   "vulnerability": {
+    "id": "GHSA-562c-5r94-xh97",
+    "dataSource": "https://github.com/advisories/GHSA-562c-5r94-xh97",
+    "namespace": "github:language:python",
+    "severity": "High",
+    "urls": [
+     "https://github.com/advisories/GHSA-562c-5r94-xh97"
+    ],
+    "description": "The Pallets Project in flask that can result in large amount of memory usage",
+    "cvss": [],
+    "fix": {
+     "versions": [
+      "0.12.3"
+     ],
+     "state": "fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2018-1000656",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2018-1000656",
+     "namespace": "nvd:cpe",
+     "severity": "High",
+     "urls": [
+      "https://github.com/pallets/flask/releases/tag/0.12.3",
+      "https://github.com/pallets/flask/pull/2691",
+      "https://security.netapp.com/advisory/ntap-20190221-0001/",
+      "https://lists.debian.org/debian-lts-announce/2019/08/msg00025.html",
+      "https://usn.ubuntu.com/4378-1/"
+     ],
+     "description": "The Pallets Project flask version Before 0.12.3 contains a CWE-20: Improper Input Validation vulnerability in flask that can result in Large amount of memory usage possibly leading to denial of service. This attack appear to be exploitable via Attacker provides JSON data in incorrect encoding. This vulnerability appears to have been fixed in 0.12.3. NOTE: this may overlap CVE-2019-1010083.",
+     "cvss": [
+      {
+       "version": "2.0",
+       "vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+       "metrics": {
+        "baseScore": 5,
+        "exploitabilityScore": 10,
+        "impactScore": 2.9
+       },
+       "vendorMetadata": {}
+      },
+      {
+       "version": "3.0",
+       "vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+       "metrics": {
+        "baseScore": 7.5,
+        "exploitabilityScore": 3.9,
+        "impactScore": 3.6
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-direct-match",
+     "matcher": "python-matcher",
+     "searchedBy": {
+      "language": "python",
+      "namespace": "github:language:python"
+     },
+     "found": {
+      "versionConstraint": "<0.12.3 (python)",
+      "vulnerabilityID": "GHSA-562c-5r94-xh97"
+     }
+    }
+   ],
+   "artifact": {
+    "name": "Flask",
+    "version": "0.1",
+    "type": "python",
+    "locations": [
+     {
+      "path": "requirements.txt"
+     }
+    ],
+    "language": "python",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:python-Flask:python-Flask:0.1:*:*:*:*:*:*:*",
+     "cpe:2.3:a:python-Flask:python_Flask:0.1:*:*:*:*:*:*:*",
+     "cpe:2.3:a:python_Flask:python-Flask:0.1:*:*:*:*:*:*:*",
+     "cpe:2.3:a:python_Flask:python_Flask:0.1:*:*:*:*:*:*:*",
+     "cpe:2.3:a:python:python-Flask:0.1:*:*:*:*:*:*:*",
+     "cpe:2.3:a:python:python_Flask:0.1:*:*:*:*:*:*:*",
+     "cpe:2.3:a:Flask:python-Flask:0.1:*:*:*:*:*:*:*",
+     "cpe:2.3:a:Flask:python_Flask:0.1:*:*:*:*:*:*:*",
+     "cpe:2.3:a:python-Flask:Flask:0.1:*:*:*:*:*:*:*",
+     "cpe:2.3:a:python_Flask:Flask:0.1:*:*:*:*:*:*:*",
+     "cpe:2.3:a:python:Flask:0.1:*:*:*:*:*:*:*",
+     "cpe:2.3:a:Flask:Flask:0.1:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:pypi/Flask@0.1",
+    "upstreams": []
+   }
+  },
+  {
+   "vulnerability": {
+    "id": "GHSA-5wv5-4vpf-pj6m",
+    "dataSource": "https://github.com/advisories/GHSA-5wv5-4vpf-pj6m",
+    "namespace": "github:language:python",
+    "severity": "High",
+    "urls": [
+     "https://github.com/advisories/GHSA-5wv5-4vpf-pj6m"
+    ],
+    "description": "Unexpected memory usage in Pallets Project Flask",
+    "cvss": [],
+    "fix": {
+     "versions": [
+      "1.0.0"
+     ],
+     "state": "fixed"
+    },
+    "advisories": []
+   },
+   "relatedVulnerabilities": [
+    {
+     "id": "CVE-2019-1010083",
+     "dataSource": "https://nvd.nist.gov/vuln/detail/CVE-2019-1010083",
+     "namespace": "nvd:cpe",
+     "severity": "High",
+     "urls": [
+      "https://www.palletsprojects.com/blog/flask-1-0-released/"
+     ],
+     "description": "The Pallets Project Flask before 1.0 is affected by: unexpected memory usage. The impact is: denial of service. The attack vector is: crafted encoded JSON data. The fixed version is: 1. NOTE: this may overlap CVE-2018-1000656.",
+     "cvss": [
+      {
+       "version": "2.0",
+       "vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+       "metrics": {
+        "baseScore": 5,
+        "exploitabilityScore": 10,
+        "impactScore": 2.9
+       },
+       "vendorMetadata": {}
+      },
+      {
+       "version": "3.0",
+       "vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+       "metrics": {
+        "baseScore": 7.5,
+        "exploitabilityScore": 3.9,
+        "impactScore": 3.6
+       },
+       "vendorMetadata": {}
+      }
+     ]
+    }
+   ],
+   "matchDetails": [
+    {
+     "type": "exact-direct-match",
+     "matcher": "python-matcher",
+     "searchedBy": {
+      "language": "python",
+      "namespace": "github:language:python"
+     },
+     "found": {
+      "versionConstraint": "<1.0.0 (python)",
+      "vulnerabilityID": "GHSA-5wv5-4vpf-pj6m"
+     }
+    }
+   ],
+   "artifact": {
+    "name": "Flask",
+    "version": "0.1",
+    "type": "python",
+    "locations": [
+     {
+      "path": "requirements.txt"
+     }
+    ],
+    "language": "python",
+    "licenses": [],
+    "cpes": [
+     "cpe:2.3:a:python-Flask:python-Flask:0.1:*:*:*:*:*:*:*",
+     "cpe:2.3:a:python-Flask:python_Flask:0.1:*:*:*:*:*:*:*",
+     "cpe:2.3:a:python_Flask:python-Flask:0.1:*:*:*:*:*:*:*",
+     "cpe:2.3:a:python_Flask:python_Flask:0.1:*:*:*:*:*:*:*",
+     "cpe:2.3:a:python:python-Flask:0.1:*:*:*:*:*:*:*",
+     "cpe:2.3:a:python:python_Flask:0.1:*:*:*:*:*:*:*",
+     "cpe:2.3:a:Flask:python-Flask:0.1:*:*:*:*:*:*:*",
+     "cpe:2.3:a:Flask:python_Flask:0.1:*:*:*:*:*:*:*",
+     "cpe:2.3:a:python-Flask:Flask:0.1:*:*:*:*:*:*:*",
+     "cpe:2.3:a:python_Flask:Flask:0.1:*:*:*:*:*:*:*",
+     "cpe:2.3:a:python:Flask:0.1:*:*:*:*:*:*:*",
+     "cpe:2.3:a:Flask:Flask:0.1:*:*:*:*:*:*:*"
+    ],
+    "purl": "pkg:pypi/Flask@0.1",
+    "upstreams": []
+   }
+  }
+ ],
+ "source": {
+  "type": "directory",
+  "target": "aplicacion-python-flask-tdd/"
+ },
+ "distro": {
+  "name": "",
+  "version": "",
+  "idLike": null
+ },
+ "descriptor": {
+  "name": "grype",
+  "version": "0.56.0",
+  "configuration": {
+   "configPath": "",
+   "verbosity": 0,
+   "output": "json",
+   "file": "",
+   "distro": "",
+   "add-cpes-if-none": false,
+   "output-template-file": "",
+   "quiet": false,
+   "check-for-app-update": true,
+   "only-fixed": false,
+   "only-notfixed": false,
+   "platform": "",
+   "search": {
+    "scope": "Squashed",
+    "unindexed-archives": false,
+    "indexed-archives": true
+   },
+   "ignore": null,
+   "exclude": [],
+   "db": {
+    "cache-dir": "/home/peter/.cache/grype/db",
+    "update-url": "https://toolbox-data.anchore.io/grype/databases/listing.json",
+    "ca-cert": "",
+    "auto-update": true,
+    "validate-by-hash-on-start": false,
+    "validate-age": true,
+    "max-allowed-built-age": 432000000000000
+   },
+   "externalSources": {
+    "enable": false,
+    "maven": {
+     "searchUpstreamBySha1": true,
+     "baseUrl": "https://search.maven.org/solrsearch/select"
+    }
+   },
+   "match": {
+    "java": {
+     "using-cpes": true
+    },
+    "dotnet": {
+     "using-cpes": true
+    },
+    "golang": {
+     "using-cpes": true
+    },
+    "javascript": {
+     "using-cpes": true
+    },
+    "python": {
+     "using-cpes": true
+    },
+    "ruby": {
+     "using-cpes": true
+    },
+    "stock": {
+     "using-cpes": true
+    }
+   },
+   "dev": {
+    "profile-cpu": false,
+    "profile-mem": false
+   },
+   "fail-on-severity": "",
+   "registry": {
+    "insecure-skip-tls-verify": false,
+    "insecure-use-http": false,
+    "auth": []
+   },
+   "log": {
+    "structured": false,
+    "level": "warn",
+    "file": ""
+   },
+   "attestation": {
+    "public-key": "",
+    "skip-verification": false
+   },
+   "show-suppressed": false,
+   "by-cve": false
+  },
+  "db": {
+   "built": "2023-01-29T08:16:27Z",
+   "schemaVersion": 5,
+   "location": "/home/peter/.cache/grype/db/5",
+   "checksum": "sha256:6333404202bc1d62fe95e7887f534d91e21a7fc6006b92ae350d8407b6f4e449",
+   "error": null
+  }
+ }
+}
