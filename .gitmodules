@@ -1,0 +1,3 @@
+[submodule "aplicacion-python-flask-tdd"]
+	path = aplicacion-python-flask-tdd
+	url = https://github.com/PetterVargas/aplicacion-python-flask-tdd
