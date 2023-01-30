@@ -33,6 +33,7 @@ curl -sSfL https://raw.githubusercontent.com/anchore/grype/main/install.sh | sh 
 ```
 
 ## Análisis Estático de Vulnerabilidades SAST
+
 Creación de los archivo que nos darán observabilidad sobre las vulnerabilidades asociadas a las dependencias del software.
 
 1. Creación de archivo con la identificación de vulnerabilidades:
@@ -42,7 +43,7 @@ $ grype dir:aplicacion-python-flask-tdd/ > code-security/vulnerabilidades.txt # 
 $ grype -o json dir:aplicacion-python-flask-tdd/ > code-security/vulnerabilidades.json # Genera un archivo de vulnerabidades en formato json
 ```
 
-2. Para generar todos los SBOM en un mismos comando:
+2. Para generar todos los archivo de vulnerabilidades en un mismos comando:
 
 ```sh
 $ grype dir:aplicacion-python-flask-tdd/ > code-security/vulnerabilidades.txt && grype -o json dir:aplicacion-python-flask-tdd/ > code-security/vulnerabilidades.json
@@ -55,4 +56,4 @@ Muestra gráfica de la funcionalidad y lo que muestra la aplicación.
 ![Funcionamiento del repositorio](./images/vulnerabilidades.png)
 
 
-Siguiente: [Identificación de Vulnerabilidades con Grype](05-vulnerabilidades.md)
+Siguiente: [Análisis de Resultados](06-analisis-resultados.md)

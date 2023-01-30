@@ -27,6 +27,16 @@ Para el desarrollo de la actividad con una mejor clasificación de las funcional
 
 # Arquitectura
 
+Para al arquitectura se definio previamente mediante la herramientas [Draw.io](https://app.diagrams.net/)
+
+En la siguiente imagen se describe los componentes de la arquitectura de inicio a fin.
+
+1. Los requerimientos generales para el desarrollo local del proyecto.
+2. Seguido de la creación de los SBOM y análisis de vulnerabilidades.
+3. Posteriormente validar si se presentan o no vulnerabilidades asociadas al código.
+4. En caso de presentarse vulnerabilidades, se debe volver al desarrollo del software y repetir el ciclo.
+5. En caso de no presentarse vulnerabilidades desplegar el cluster de kubernetes en virtual box.
+
 ![TFM Arquitectura General del Proyecto](./architecture/arquitectura.png)
 
 ## Estructura del repositorio principal
@@ -46,7 +56,7 @@ Para el desarrollo de la actividad con una mejor clasificación de las funcional
 * Desarrollar una aplicación web con la estructura funcional de TDD Test-Driven Development (Desarrollo dirigido por tests). [Aplicación Python Flask TDD](https://github.com/PetterVargas/aplicacion-python-flask-tdd)
 * Verificar la seguridad en el código con un análisis estático de vulnerabilidades (Static Application Security Testing - SAST) previo al despligue del entorno local del clúster de kubernetes. [Aplicación Python Flask TDD](https://github.com/PetterVargas/aplicacion-python-flask-tdd)
 * Formular el entorno local que soporte la infraestructura necesario en la implementación de un clúster de kubernetes. [TFM Cybersecurity Kubernetes](https://github.com/PetterVargas/tfm-cybersecurity-kubernetes)
-* Diseñar la arquitectura para el entorno de pruebas que incluya los componentes definidos en la documentación oficial de kubernetes. [Arquitectura General del Proyecto](./architecture/arquitectura.drawio)
+* Diseñar la arquitectura para el entorno de pruebas que incluya los componentes definidos en la documentación oficial de kubernetes. [Arquitectura General del Proyecto](./arquitectura/arquitectura.drawio)
 * Establecer la comunicación de cada componente del clúster de kubernetes para que funcione integral y de manera transparente para el usuario final. [TFM Cybersecurity Kubernetes](https://github.com/PetterVargas/tfm-cybersecurity-kubernetes)
 * Implementar el despliegue automatizado del cluster de kubernetes, apropiado para los roles de DevOps. [TFM Cybersecurity Kubernetes](https://github.com/PetterVargas/tfm-cybersecurity-kubernetes)
 
@@ -75,3 +85,5 @@ Para el desarrollo de la actividad con una mejor clasificación de las funcional
 * [E2E Test](docs/17-e2e-tests.md)
 * [Extra - Certificate Verification](docs/verify-certificates.md)
 
+> Parte del código de este repositorio tiene base de [Kelsey Hightower](https://github.com/kelseyhightower/kubernetes-the-hard-way) y [
+Mumshad Mannambeth](https://github.com/mmumshad/kubernetes-the-hard-way)
