@@ -37,7 +37,7 @@ En la siguiente imagen se describe los componentes de la arquitectura de inicio 
 4. En caso de presentarse vulnerabilidades, se debe volver al desarrollo del software y repetir el ciclo.
 5. En caso de no presentarse vulnerabilidades desplegar el cluster de kubernetes en virtual box.
 
-![TFM Arquitectura General del Proyecto](./architecture/arquitectura.png)
+![TFM Arquitectura General del Proyecto](./arquitectura/arquitectura.png)
 
 ## Estructura del repositorio principal
 
