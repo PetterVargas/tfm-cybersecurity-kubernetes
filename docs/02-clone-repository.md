@@ -14,7 +14,7 @@ $ git clone https://github.com/PetterVargas/tfm-cybersecurity-kubernetes --recur
 clone
 ```
 
-Analiza los [Makefile](Makefile) para conocer todos los comandos
+Analiza el [Makefile](../aplicacion-python-flask-tdd/Makefile) para conocer todos los comandos
 
 Anterior: [Prerequisitos](01-prerequisitos.md)<br>
 Siguiente: [Aplicación Python Flask TDD](03-aplication-python-flask-tdd.md)

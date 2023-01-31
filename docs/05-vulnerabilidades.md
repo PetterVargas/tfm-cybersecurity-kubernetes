@@ -55,5 +55,5 @@ Muestra gráfica de la funcionalidad y lo que muestra la aplicación.
 
 ![Funcionamiento del repositorio](./images/vulnerabilidades.png)
 
-Anterior: [SBOM](03-aplication-python-flask-tdd.md)<br>
+Anterior: [SBOM](04-sbom.md)<br>
 Siguiente: [Análisis de Resultados](06-analisis-resultados.md)

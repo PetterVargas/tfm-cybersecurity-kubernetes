@@ -13,10 +13,10 @@ $ cd aplicacion-python-flask-tdd/
 El skeleton base para un servicio web en python, teniendo como micro-framework web Flask.
 
 
-## Contents
+## Contenido
 
 - [Creación](#creación)
-- [Contents](#contents)
+- [Contenido](#contenido)
 - [Requiremientos](#requiremientos)
 - [Download Python](#download-python)
 - [Instalación del proyecto](#instalación-del-proyecto)
@@ -42,7 +42,7 @@ Este servicio utiliza los siguientes requerimientos:
 
 Antes de comenzar, asegúrese de tener instalada la última versión de [Python 3.9](https://www.python.org/downloads/release/python-390/), que puede descargar desde [http://www.python.org/download/](http://www.python.org/download/).
 
-> This template uses Python v3.10.4.
+> This template uses Python v3.9.
 
 ## Instalación del proyecto
 
@@ -170,7 +170,7 @@ tests/app_test.py .                                                         [100
 
 Muestra gráfica de la funcionalidad y lo que muestra la aplicación.
 
-![Funcionamiento del repositorio](./aplicacion-python-flask-tdd/project/static/img/funcionamiento.png)
+![Funcionamiento del repositorio](./images/funcionamiento.png)
 
-Anterior: [Prerequisitos](02-clone-repository.md)<br>
+Anterior: [Clone Repositorio](02-clone-repository.md)<br>
 Siguiente: [SBOM](04-sbom.md)
