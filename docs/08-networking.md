@@ -28,4 +28,6 @@ La red usada para asignar la dirección IP para el pods es `10.244.0.0/16`.
 
 La red usada para asignar la dirección IP para los servicios de IP del cluster es `10.96.0.0/16`.
 
-Siguiente: [Análisis de Resultados](06-analisis-resultados.md)
+
+Anterior: [Remediación de Vulnerabilidades](07-remediacion-vulnerabilidades.md)<br>
+Siguiente: [Aprovisionamiento de Recursos](09-aprovisionamiento-recursos.md)

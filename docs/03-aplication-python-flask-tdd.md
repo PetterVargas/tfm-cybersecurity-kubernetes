@@ -172,5 +172,5 @@ Muestra gráfica de la funcionalidad y lo que muestra la aplicación.
 
 ![Funcionamiento del repositorio](./aplicacion-python-flask-tdd/project/static/img/funcionamiento.png)
 
-
+Anterior: [Prerequisitos](02-clone-repository.md)<br>
 Siguiente: [SBOM](04-sbom.md)

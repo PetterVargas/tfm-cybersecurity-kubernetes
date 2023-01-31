@@ -41,4 +41,5 @@ Muestra gráfica de la funcionalidad y lo que muestra la aplicación.
 
 ![Funcionamiento del repositorio](./images/vm-virtualbox-02.png)
 
+Anterior: [Networking](08-networking.md)<br>
 Siguiente: [Análisis de Resultados](06-analisis-resultados.md)

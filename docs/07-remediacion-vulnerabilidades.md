@@ -59,4 +59,5 @@ Muestra gráfica de la funcionalidad y lo que muestra la aplicación.
 ![Funcionamiento del repositorio](./images/vulnerabilidades-remediacion.png)
 
 
-Siguiente: [Análisis de Resultados](06-analisis-resultados.md)
+Anterior: [Análisis de Resultados](06-analisis-resultados.md)<br>
+Siguiente: [Networking](08-networking.md)

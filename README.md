@@ -44,19 +44,22 @@ En la siguiente imagen se describe los componentes de la arquitectura de inicio 
     .tfm-cybersecurity-kubernetes/
         ├── aplicacion-python-flask-tdd/  # Aplicación Flask TDD
         ├── architecture/                 # Arquitectura
+        ├── code-security/                # Seguridad en el Código
+        ├── deployments/                  # Configuración de despliegue
         ├── docs/                         # Documentación del paso a paso
         ├── docs/images                   # Imágenes de documentación
         ├── vagrant/                      # Infraestructura como código VM
-        ├── deployments/                  # Configuración de despliegue
-        └── README.md    
+        └── .gitmodules
+        └── Makefile 
+        └── README.md     
 
 
 ## Objetivos Específicos
 
-* Desarrollar una aplicación web con la estructura funcional de TDD Test-Driven Development (Desarrollo dirigido por tests). [Aplicación Python Flask TDD](https://github.com/PetterVargas/aplicacion-python-flask-tdd)
-* Verificar la seguridad en el código con un análisis estático de vulnerabilidades (Static Application Security Testing - SAST) previo al despligue del entorno local del clúster de kubernetes. [Aplicación Python Flask TDD](https://github.com/PetterVargas/aplicacion-python-flask-tdd)
 * Formular el entorno local que soporte la infraestructura necesario en la implementación de un clúster de kubernetes. [TFM Cybersecurity Kubernetes](https://github.com/PetterVargas/tfm-cybersecurity-kubernetes)
 * Diseñar la arquitectura para el entorno de pruebas que incluya los componentes definidos en la documentación oficial de kubernetes. [Arquitectura General del Proyecto](./arquitectura/arquitectura.drawio)
+* Desarrollar una aplicación web con la estructura funcional de TDD Test-Driven Development (Desarrollo dirigido por tests). [Aplicación Python Flask TDD](https://github.com/PetterVargas/aplicacion-python-flask-tdd)
+* Verificar la seguridad en el código con un análisis estático de vulnerabilidades (Static Application Security Testing - SAST) previo al despligue del entorno local del clúster de kubernetes. [Aplicación Python Flask TDD](https://github.com/PetterVargas/aplicacion-python-flask-tdd)
 * Establecer la comunicación de cada componente del clúster de kubernetes para que funcione integral y de manera transparente para el usuario final. [TFM Cybersecurity Kubernetes](https://github.com/PetterVargas/tfm-cybersecurity-kubernetes)
 * Implementar el despliegue automatizado del cluster de kubernetes, apropiado para los roles de DevOps. [TFM Cybersecurity Kubernetes](https://github.com/PetterVargas/tfm-cybersecurity-kubernetes)
 
@@ -66,24 +69,13 @@ En la siguiente imagen se describe los componentes de la arquitectura de inicio 
 * [Prerequisitos](/docs/01-prerequisitos.md)
 * [Clonar Repositorios](docs/02-clone-repository.md)
 * [Aplicación Python Flask TDD](docs/03-aplication-python-flask-tdd.md)
+* [SBOM](/docs/04-sbom.md)
+* [Vulnerabilidades](docs/05-vulnerabilidades.md)
+* [Análisis de Resultados](docs/06-analisis-resultados.md)
+* [Remediación de vulnerabilidades](/docs/07-remediacion-vulnerabilidades.md)
+* [Networking](docs/08-networking.md)
+* [Aprovisionamiento de Recursos](docs/09-aprovisionamiento-recursos.md)
 
-
-* [Installing the Client Tools](docs/03-client-tools.md)
-* [Provisioning the CA and Generating TLS Certificates](docs/04-certificate-authority.md)
-* [Generating Kubernetes Configuration Files for Authentication](docs/05-kubernetes-configuration-files.md)
-* [Generating the Data Encryption Config and Key](docs/06-data-encryption-keys.md)
-* [Bootstrapping the etcd Cluster](docs/07-bootstrapping-etcd.md)
-* [Bootstrapping the Kubernetes Control Plane](docs/08-bootstrapping-kubernetes-controllers.md)
-* [Installing CRI on Worker Nodes](docs/09-install-cri-workers.md)
-* [Bootstrapping the Kubernetes Worker Nodes](docs/10-bootstrapping-kubernetes-workers.md)
-* [TLS Bootstrapping the Kubernetes Worker Nodes](docs/11-tls-bootstrapping-kubernetes-workers.md)
-* [Configuring kubectl for Remote Access](docs/12-configuring-kubectl.md)
-* [Deploy Weave - Pod Networking Solution](docs/13-configure-pod-networking.md)
-* [Kube API Server to Kubelet Configuration](docs/14-kube-apiserver-to-kubelet.md)
-* [Deploying the DNS Cluster Add-on](docs/15-dns-addon.md)
-* [Smoke Test](docs/16-smoke-test.md)
-* [E2E Test](docs/17-e2e-tests.md)
-* [Extra - Certificate Verification](docs/verify-certificates.md)
 
 > Parte del código de este repositorio tiene base de [Kelsey Hightower](https://github.com/kelseyhightower/kubernetes-the-hard-way) y [
 Mumshad Mannambeth](https://github.com/mmumshad/kubernetes-the-hard-way)

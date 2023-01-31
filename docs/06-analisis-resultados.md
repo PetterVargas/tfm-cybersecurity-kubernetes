@@ -49,5 +49,5 @@ El archivo de vulnerabilidades nos muestra las vulnerabilidades y nos sugiere a 
 
 > Con el archivo de vulnerabilidades en formato json no entrega información más detallada sobre cada vulnerabilidad.
 
-
+Anterior: [Vulnerabilidades](05-vulnerabilidades.md)<br>
 Siguiente: [Remediación de Vulnerabilidades](07-remediacion-vulnerabilidades.md)
